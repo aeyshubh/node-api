@@ -1,0 +1,17 @@
+[
+    {
+        "walletAddress":"0x82a7A0828fa8EB902f0508620Ee305b08634318A",
+        "lens_id":"0x192",
+        "nature":"Water",
+        "attack1":400,
+        "attack2":200,
+        "attack3":500
+    },
+    {
+        "walletAddress":"0x0dDda6871f1216D7EF56722167652e4F881d74Aa",
+        "lens_id":"0x193",
+        "nature":"Fire",
+        "attack1":400,
+        "attack2":200,
+        "attack3":500
+            }]
