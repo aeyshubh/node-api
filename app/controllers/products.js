@@ -2,7 +2,7 @@ const Model = require("../model/model");
 const mongoose = require("mongoose");
 require("dotenv").config();
 
-const uri = `mongodb+srv://user2:${process.env.PASS}@cluster0.a6zzphf.mongodb.net/cluster0?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://user2:user2@cluster0.a6zzphf.mongodb.net/cluster0?retryWrites=true&w=majority`;
 mongoose.connect(uri,{
     useNewUrlParser: true,
     useUnifiedTopology: true,
