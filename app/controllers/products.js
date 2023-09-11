@@ -2,7 +2,7 @@ const Model = require("../model/model");
 const mongoose = require("mongoose");
 require("dotenv").config();
 
-const uri = `mongodb+srv://devshub21:${process.env.PASS}@cluster0.a6zzphf.mongodb.net/cluster0?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://user2:${process.env.PASS}@cluster0.a6zzphf.mongodb.net/cluster0?retryWrites=true&w=majority`;
 mongoose.connect(uri,{
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -11,7 +11,7 @@ mongoose.connect(uri,{
 const getAllProducts = async(req,res) =>{
     try{
         
-            const data = await Model.find({"walletAddress":"0x82a7A0828fa8EB902f0508620Ee305b08634318A"});
+            const data = await Model.find({});
             res.status(200).json({data});
 
     }catch(error){
