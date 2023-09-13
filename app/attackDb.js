@@ -4,7 +4,7 @@ const model = require("./model/model");
 const modelData = require("./attacks.json")
 require("dotenv").config();
 
-const uri = `mongodb+srv://user2:user2@cluster0.a6zzphf.mongodb.net/cluster0?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://user2:${process.env.PASS}@cluster0.a6zzphf.mongodb.net/cluster0?retryWrites=true&w=majority`;
 
 const start = async () =>{
     try{
